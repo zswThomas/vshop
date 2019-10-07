@@ -1,4 +1,4 @@
-let text = 'abcddcabce'
+/* let text = 'abcddcabce'
 var k = {}
 let len = 0
 let index = 0
@@ -20,8 +20,9 @@ for (let i of text) {
 if (len > longest) {
   longest = len - 1
 }
-console.log(longest, text.slice(begin, begin + longest))
-
-
-
-
+console.log(longest, text.slice(begin, begin + longest)) */
+var a = {x: 1}
+var b = a
+a = a.x = {x: 1}
+console.log(a)
+console.log(b)
